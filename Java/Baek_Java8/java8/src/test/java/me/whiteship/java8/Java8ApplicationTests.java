@@ -1,13 +1,13 @@
-package com.example.java8to11;
+package me.whiteship.java8;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Java8to11ApplicationTests {
+class Java8ApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
