@@ -10,4 +10,6 @@ public class FuncApplication {
 
         System.out.println(runSomething.doIt(1));
     }
+
+
 }
