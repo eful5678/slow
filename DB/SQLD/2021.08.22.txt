@@ -1,0 +1,56 @@
+1. 4
+2. 2
+3. TCL
+4. 4
+5. 1, 2
+6. 2
+7. 2
+8. 3
+9. 2
+
+
+
+
+
+
+
+===================================
+1. 4
+INSERT -> DML
+RENAME -> DDL
+COMMIT -> TCL
+REVOKE -> DCL
+
+2. 2
+DML
+GRANT -> DCL
+
+3. TCL
+
+4. 4
+1) DML
+2) DML
+3) DDL?
+4) 
+
+5. 1, 2
+1) SELECT - DML
+2) COMMIT - TCL
+3) DROP - ?
+4) ALTER - ?
+
+6. 2
+CREATE TABLE PRPDUCT(
+	PROD_ID VARCHAR2(10) NOT NULL, PRIMARY KEY,
+	PROD_NM VARCHAR2(100) NOT NULL,
+	REG_DT DATE NOT NULL,
+	REGR_NO NUMBER(10) NULL
+	)
+
+7. 1
+분류명의 길이 변경
+등록일자의 형식 변경
+
+8. 3
+
+9. 2
