@@ -18,4 +18,9 @@ public class FruitController {
         return fruitService.fruitList(fruitListParam);
     }
 
+    @GetMapping("/order")
+    FruitDto.fruitOrder fruitOrder(@ModelAttribute FruitDto.fruitOrderParam fruitOrderParam){
+        return fruitService.fruitOrder(fruitOrderParam);
+    }
+
 }
