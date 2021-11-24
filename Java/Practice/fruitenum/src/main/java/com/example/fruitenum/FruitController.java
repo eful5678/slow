@@ -19,7 +19,7 @@ public class FruitController {
     }
 
     @GetMapping("/order")
-    FruitDto.fruitOrder fruitOrder(@ModelAttribute FruitDto.fruitOrderParam fruitOrderParam){
+    FruitDto.fruitOrder fruitOrder(@ModelAttribute FruitDto.fruitOrderParam fruitOrderParam) throws Exception {
         return fruitService.fruitOrder(fruitOrderParam);
     }
 
